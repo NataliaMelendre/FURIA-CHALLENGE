@@ -76,7 +76,7 @@ function handleLogin(event) {
     login.style.display = "none"
     chat.style.display = "flex"
 
-    websocket = new WebSocket("https://furia-challenge.onrender.com")
+    websocket = new WebSocket("wss://furia-challenge.onrender.com")
     websocket.onmessage = processMessage
 
 }
