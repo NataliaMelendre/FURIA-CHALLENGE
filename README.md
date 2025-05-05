@@ -1,6 +1,8 @@
 # FURIA-CHALLENGE
-
 Um sistema de chat em tempo real inspirado no universo do CS:GO, com foco na equipe brasileira FURIA. O FURIACHAT permite a comunicação entre usuários por WebSocket, com uma interface visual personalizada com os principais jogadores da cena competitiva.
+
+## Deploy no Render
+O projeto está hospedado no render - Acesse: https://furia-challenge-front.onrender.com
 
 FURIA-CHALLENGE/
 │
@@ -40,23 +42,21 @@ FURIA-CHALLENGE/
    cd src
    node server.js
 
-3. Abra o index.html diretamente no navegador.
+2. Abra o index.html diretamente no navegador.
 
 🌐 Comunicação via WebSocket
 - O frontend se conecta ao servidor WebSocket utilizando o IP e porta definidos no .env.
 - As mensagens são trocadas em tempo real entre múltiplos clientes.
-
 ## 🖼️ Prévia da Interface
 
 ### Tela de Login
-![image](https://github.com/user-attachments/assets/7d851b39-ded5-4c3f-b61a-8ff178349e0c)
+![image](https://github.com/user-attachments/assets/a3c4b506-6716-4880-9717-45c5b2c92081)
 
 ### Tela de Chat
-![image](https://github.com/user-attachments/assets/ff9de739-39a8-4047-a15b-e7348806e5a8)
+![image](https://github.com/user-attachments/assets/27c2a491-b380-4079-ae02-cce4e39e0a9a)
 
 ### Cards dos Jogadores
-![image](https://github.com/user-attachments/assets/dd661768-d935-4340-8dde-ed6d1024bc1b)
-
+![image](https://github.com/user-attachments/assets/8971faa5-9f74-4bd0-98f3-1180bf3aa4ea)
 
 ## 👤 Autora
 Desenvolvido por Natalia Melendre
